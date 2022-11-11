@@ -107,39 +107,39 @@ body {
   text-align: center;
 }
 
-.head__one {
-  font-size: clamp(28px, 4.5vw, 54px);
+.larger__text{
+  font-size: clamp(28px, 4.5vw, 81px);
   line-height: 1.2;
   font-weight: 900;
   color: var(--white);
   margin-bottom: -10px; 
 }
-.head__oneB{
-  font-size: clamp(28px, 4.5vw, 24px);
+.head__one {
+  font-size: clamp(28px, 4.5vw, 54px);
   line-height: 1.2;
   font-weight: 800;
   color: var(--white);
 }
-.head__oneC{
-  font-size: clamp(28px, 4.5vw, 24px);
+.leadership{
+  font-size: clamp(28px, 4.5vw, 18px);
   line-height: 1.2;
   font-weight: 800;
   color: var(--white);
 }
-.title__head{
+/* .title__head{
   display: flex;
   flex-direction: column;
   gap: -12px;
-}
+} */
 .head__two {
-  font-size: clamp(23px, 4.5vw, 38px);
+  font-size: clamp(23px, 4.5vw, 45px);
   line-height: 1.2;
   font-weight: 900;
   color: var(--black);
 }
 
 .subtitle {
-  font-size: clamp(13px, 4.5vw, 18px);
+  font-size: clamp(13px, 4.5vw, 16px);
   line-height: 1.2;
   font-weight: 400;
   color: var(--white);
@@ -245,6 +245,7 @@ body {
   flex-direction: column;
   gap: 10px;
   width: 60%;
+  margin-top: -5px;
 }
 
 .hero__btn {
@@ -665,7 +666,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 400px;
+  height: 300px;
   position: absolute;
   font-size: clamp(12px, 2.5vw, 22px);
   font-weight: bold;

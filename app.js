@@ -45,7 +45,7 @@ function openTab(tabName){
   }
 
 window.addEventListener('scroll', (e)=> {
-    if(window.scrollY > 550){
+    if(window.scrollY > 0){
         header[0].classList.add('header__bar')
         header__wrapper[0].classList.add('header__bar')
     }
